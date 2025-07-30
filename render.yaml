@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: recipe-website
+    env: docker
+    plan: free
+    branch: main
+    region: oregon
+    dockerfilePath: Dockerfile
+    healthCheckPath: /
